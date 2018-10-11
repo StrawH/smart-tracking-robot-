@@ -64,7 +64,7 @@ while True:
                 print(x, threshold_upper_h, "moving up ")
 
     # dsiplay the action
-    cv2.imshow("omar", image)
+    cv2.imshow("show", image)
 
     if cv2.waitKey(1) & 255 == ord('s'):
         break
