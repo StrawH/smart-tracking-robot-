@@ -2,7 +2,7 @@
 import cv2
 
 # find faaces in image
-face_cascade = cv2.CascadeClassifier('/home/omar/Desktop/smart_project/lbpcascade_frontalface.xml')
+face_cascade = cv2.CascadeClassifier('classifire path')
 
 # deffine camera index
 cap = cv2.VideoCapture(0)
